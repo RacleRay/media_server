@@ -52,6 +52,20 @@ TimerManager::TimerManager(Scheduler* scheduler)
     : mPoller(scheduler->poller())
 {
     mTimerFd = timerfd_create(CLOCK_MONOTONIC, TFD_NONBLOCK | TFD_CLOEXEC);
+
+    if (mTimerFd < 0) {
+        LOGE("TimerManager::TimerManager : create timerfd error.");
+        return ;
+    }
+
+    LOGI("TimerManager::TimerManager : create timerfd [%d].", mTimerFd);
+
+    mTimerIOEvent = IOEvent::createNew(mTimerFd, this);
+    mTimerIOEvent->setReadCallback(readCallback);
+    mTimerIOEvent->enableReadHandling();
+
+    modifyTimeout();
+    mPoller->addIOEvent(mTimerIOEvent);
 }
 
 

@@ -72,7 +72,7 @@ private:
     Timer::TimerId mLastTimerId {0};
 
     int mTimerFd {0};
-    IOEvent* mTimerEvent {nullptr};
+    IOEvent* mTimerIOEvent {nullptr};
 
     std::map<Timer::TimerId, Timer> mTimers;
     std::multimap<Timer::Timestamp, Timer> mEvents;
