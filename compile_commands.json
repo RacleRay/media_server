@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++  -I/home/racle/multimedia/rtsp/rtsp_media/include/log -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/test_log.dir/test_log.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
+  "output": "test/CMakeFiles/test_log.dir/test_log.cpp.o"
+}
+]
