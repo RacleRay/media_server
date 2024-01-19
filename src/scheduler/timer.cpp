@@ -4,6 +4,7 @@
 #include <chrono>
 
 #include "event.h"
+#include "poller.h"
 #include "scheduler.h"
 #include "timer.h"
 
@@ -64,11 +65,72 @@ TimerManager::TimerManager(Scheduler* scheduler)
     mTimerIOEvent->setReadCallback(readCallback);
     mTimerIOEvent->enableReadHandling();
 
-    modifyTimeout();
     mPoller->addIOEvent(mTimerIOEvent);
 }
 
 
+TimerManager* TimerManager::createNew(Scheduler* scheduler)
+{
+    if (!scheduler) {
+        return nullptr;
+    }
+    return new TimerManager(scheduler);
+}
+
+
+Timer::TimerId TimerManager::addTimer(TimerEvent* event, Timer::Timestamp timestamp, Timer::TimerInterval interval)
+{
+    mLastTimerId++;
+    Timer timer(event, timestamp, interval, mLastTimerId);
+
+    mTimers.insert(std::move(std::make_pair(mLastTimerId, timer)));
+    mEvents.insert(std::move(std::make_pair(timestamp, timer)));
+
+    return mLastTimerId;
+}
+
+
+bool TimerManager::removeTimer(Timer::TimerId timerId)
+{
+    auto it = mTimers.find(timerId);
+    if (it != mTimers.end()) {
+        mTimers.erase(timerId);
+    }   
+    return true;
+}
+
+
+void TimerManager::readCallback(void* arg)
+{
+    auto* timerManager = static_cast<TimerManager*>(arg);
+    timerManager->handleRead();   
+}
+
+
+void TimerManager::handleRead() {
+    auto timestamp = Timer::getCurTime();
+    
+    if (!mTimers.empty() && !mEvents.empty()) {
+        auto it = mEvents.begin();
+        auto timer = it->second;
+        int expire = timer.mTimestamp - timestamp;
+
+        if (timestamp > timer.mTimestamp || expire <= 0) {
+            bool timerEventIsStop = timer.handleEvent();
+            mEvents.erase(it);
+            if (timer.mRepeat) {
+                if (timerEventIsStop) {
+                    mTimers.erase(timer.mTimerId);
+                }else {
+                    timer.mTimestamp = timestamp + timer.mInterval;
+                    mEvents.insert(std::make_pair(timer.mTimestamp, timer));
+                }
+            } else {
+                mTimers.erase(timer.mTimerId);
+            }
+        }
+    }
+}
 
 
 }  // namespace RACLE

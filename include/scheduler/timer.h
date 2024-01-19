@@ -30,6 +30,7 @@ public:
     static Timestamp getCurTimestamp();  // 获取毫秒级时间戳 
 
 private:
+    friend class TimerManager;
     Timer(TimerEvent* event, Timestamp timestamp, TimerInterval interval, TimerId timerId);
 
     bool handleEvent();
@@ -51,10 +52,10 @@ private:
 class TimerManager {
 public:
     explicit TimerManager(Scheduler* scheduler);
-    ~TimerManager();
+    ~TimerManager() = default;
 
-    Timer::TimerId addTimer(Timer::Timestamp Timestamp, Timer::TimerInterval interval);
-    void removeTimer(Timer::TimerId timerId);
+    Timer::TimerId addTimer(TimerEvent* event, Timer::Timestamp timestamp, Timer::TimerInterval interval);
+    bool removeTimer(Timer::TimerId timerId);
 
 public:
     static TimerManager* createNew(Scheduler* scheduler);
@@ -62,9 +63,8 @@ public:
 private:
     static void readCallback(void* arg);
 
-private:
+public:
     void handleRead();
-    void modifyTimeout();
 
 private:
     Poller* mPoller {nullptr};
@@ -77,6 +77,7 @@ private:
     std::map<Timer::TimerId, Timer> mTimers;
     std::multimap<Timer::Timestamp, Timer> mEvents;
 };
+
 
 
 }  // namespace RACLE

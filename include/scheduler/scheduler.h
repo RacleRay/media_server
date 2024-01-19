@@ -55,8 +55,8 @@ private:
     Poller* mPoller{nullptr};
     TimerManager* mTimerManager{nullptr};
 
-    EventCallback mTimerManagerReadCallback{nullptr};
-    void* mTimerManagerArg{nullptr};
+    // EventCallback mTimerManagerReadCallback{nullptr};
+    // void* mTimerManagerArg{nullptr};
 
     std::vector<TriggerEvent*> mTriggerEvents;
     std::mutex mMutex;
