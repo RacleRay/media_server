@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
-  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/test_log.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/test_log.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
   "file": "/home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
   "output": "test/CMakeFiles/test_log.dir/test_log.cpp.o"
 }
