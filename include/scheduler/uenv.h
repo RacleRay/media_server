@@ -4,7 +4,6 @@
 #include "scheduler.h"
 #include "threadpool.h"
 
-
 namespace RACLE {
 
 class UserEnvironment {

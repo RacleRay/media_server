@@ -28,9 +28,4 @@ private:
     struct sockaddr_in mAddr;
 };
 
-
-
-
-
-
 #endif //!__ADDRESS__H__

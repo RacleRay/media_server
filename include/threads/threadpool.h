@@ -31,7 +31,7 @@ class Thread {
 };
 
 //=================================================================================
-// 低性能，未优化，及其普通线程池实现
+// 低性能，未优化，极其普通线程池实现
 
 class ThreadPool {
   public:
@@ -88,8 +88,8 @@ class ThreadPool {
 
   private:
     std::queue<Task> mTaskQueue;
-    std::mutex mMtx;              // 互斥锁
-    std::condition_variable mCon; // 条件变量
+    std::mutex mMtx;
+    std::condition_variable mCon;
 
     std::vector<MThread> mThreads;
     bool mQuit;
