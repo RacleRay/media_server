@@ -23,7 +23,7 @@ int sockets::createUdpSock() {
     return sockfd;
 }
 
-bool sockets::bind(int sockfd, std::string& ip, uint16_t port) {
+bool sockets::bind(int sockfd, const std::string& ip, uint16_t port) {
     struct sockaddr_in addr = {0};
     addr.sin_family = AF_INET;
     addr.sin_addr.s_addr = inet_addr(ip.c_str());
@@ -169,7 +169,7 @@ void sockets::close(int sockfd) {
     int ret = ::close(sockfd);
 }
 
-bool sockets::connect(int sockfd, std::string& ip, uint16_t port, int timeout) {
+bool sockets::connect(int sockfd, const std::string& ip, uint16_t port, int timeout) {
     bool isConnected = true;
     if (timeout > 0) { sockets::setNonBlock(sockfd); }
 

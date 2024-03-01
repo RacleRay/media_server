@@ -4,6 +4,8 @@
 #include <map>
 #include <string>
 
+namespace RACLE {
+
 class MediaSession;
 class MediaSessionManager {
   public:
@@ -20,5 +22,7 @@ class MediaSessionManager {
   private:
     std::map<std::string, MediaSession *> mSessMap;
 };
+
+} // namespace RACLE
 
 #endif //!__SESSIONMANAGER__H__

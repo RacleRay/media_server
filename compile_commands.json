@@ -4,5 +4,251 @@
   "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/test_log.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
   "file": "/home/racle/multimedia/rtsp/rtsp_media/test/test_log.cpp",
   "output": "test/CMakeFiles/test_log.dir/test_log.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/buffer/buffer.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/buffer/buffer.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/buffer/buffer.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/buffer/buffer.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/net/address.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/net/address.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/net/address.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/net/address.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/net/sockets.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/net/sockets.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/net/sockets.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/net/sockets.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/poller/selector.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/poller/selector.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/poller/selector.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/poller/selector.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/rtp/rtp.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtp/rtp.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtp/rtp.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/rtp/rtp.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/rtspserver/rtspconn.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspconn.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspconn.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/rtspserver/rtspconn.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/rtspserver/rtspserver.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspserver.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspserver.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/rtspserver/rtspserver.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/rtspserver/tcpconn.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/tcpconn.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/tcpconn.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/rtspserver/tcpconn.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/scheduler/scheduler.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/scheduler/scheduler.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/scheduler/scheduler.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/scheduler/scheduler.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/scheduler/timer.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/scheduler/timer.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/scheduler/timer.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/scheduler/timer.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/scheduler/uenv.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/scheduler/uenv.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/scheduler/uenv.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/scheduler/uenv.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/session/mediasession.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/session/mediasession.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/session/mediasession.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/session/mediasession.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/session/sessionmanager.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/session/sessionmanager.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/session/sessionmanager.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/session/sessionmanager.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/ss/AACsink.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsink.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsink.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/ss/AACsink.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/ss/AACsource.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsource.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsource.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/ss/AACsource.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/ss/H264sink.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/H264sink.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/H264sink.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/ss/H264sink.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/ss/H264source.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/H264source.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/H264source.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/ss/H264source.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/ss/sink.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/sink.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/sink.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/ss/sink.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/ss/source.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/source.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/source.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/ss/source.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_log.dir/__/src/threads/threadpool.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/threads/threadpool.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/threads/threadpool.cpp",
+  "output": "test/CMakeFiles/test_log.dir/__/src/threads/threadpool.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/test_server.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/test/test_server.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/test/test_server.cpp",
+  "output": "test/CMakeFiles/test_server.dir/test_server.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/buffer/buffer.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/buffer/buffer.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/buffer/buffer.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/buffer/buffer.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/net/address.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/net/address.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/net/address.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/net/address.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/net/sockets.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/net/sockets.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/net/sockets.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/net/sockets.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/poller/selector.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/poller/selector.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/poller/selector.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/poller/selector.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/rtp/rtp.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtp/rtp.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtp/rtp.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/rtp/rtp.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/rtspserver/rtspconn.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspconn.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspconn.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/rtspserver/rtspconn.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/rtspserver/rtspserver.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspserver.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/rtspserver.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/rtspserver/rtspserver.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/rtspserver/tcpconn.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/tcpconn.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/rtspserver/tcpconn.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/rtspserver/tcpconn.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/scheduler/scheduler.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/scheduler/scheduler.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/scheduler/scheduler.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/scheduler/scheduler.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/scheduler/timer.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/scheduler/timer.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/scheduler/timer.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/scheduler/timer.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/scheduler/uenv.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/scheduler/uenv.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/scheduler/uenv.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/scheduler/uenv.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/session/mediasession.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/session/mediasession.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/session/mediasession.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/session/mediasession.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/session/sessionmanager.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/session/sessionmanager.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/session/sessionmanager.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/session/sessionmanager.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/ss/AACsink.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsink.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsink.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/ss/AACsink.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/ss/AACsource.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsource.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/AACsource.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/ss/AACsource.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/ss/H264sink.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/H264sink.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/H264sink.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/ss/H264sink.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/ss/H264source.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/H264source.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/H264source.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/ss/H264source.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/ss/sink.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/sink.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/sink.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/ss/sink.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/ss/source.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/ss/source.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/ss/source.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/ss/source.cpp.o"
+},
+{
+  "directory": "/home/racle/multimedia/rtsp/rtsp_media/build/test",
+  "command": "/usr/sbin/clang++ -D__MY_DEBUG__ -I/home/racle/multimedia/rtsp/rtsp_media/include/buffer -I/home/racle/multimedia/rtsp/rtsp_media/include/logging -I/home/racle/multimedia/rtsp/rtsp_media/include/net -I/home/racle/multimedia/rtsp/rtsp_media/include/poller -I/home/racle/multimedia/rtsp/rtsp_media/include/rtp -I/home/racle/multimedia/rtsp/rtsp_media/include/rtspserver -I/home/racle/multimedia/rtsp/rtsp_media/include/scheduler -I/home/racle/multimedia/rtsp/rtsp_media/include/session -I/home/racle/multimedia/rtsp/rtsp_media/include/ss -I/home/racle/multimedia/rtsp/rtsp_media/include/threads -g -std=gnu++17 -o CMakeFiles/test_server.dir/__/src/threads/threadpool.cpp.o -c /home/racle/multimedia/rtsp/rtsp_media/src/threads/threadpool.cpp",
+  "file": "/home/racle/multimedia/rtsp/rtsp_media/src/threads/threadpool.cpp",
+  "output": "test/CMakeFiles/test_server.dir/__/src/threads/threadpool.cpp.o"
 }
 ]

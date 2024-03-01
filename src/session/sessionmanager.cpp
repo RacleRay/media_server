@@ -1,5 +1,7 @@
 #include "sessionmanager.h"
-#include "mediassesion.h"
+#include "mediasession.h"
+
+namespace RACLE {
 
 MediaSessionManager *MediaSessionManager::createNewManager() {
     return new MediaSessionManager();
@@ -32,3 +34,5 @@ MediaSession *MediaSessionManager::getSession(const std::string &name) {
         return it->second;
     }
 }
+
+} // namespace RACLE

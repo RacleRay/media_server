@@ -6,7 +6,7 @@ foreach(v ${all_tests})
     string(REGEX REPLACE "test/" "" target_name ${relative_path})
     string(REGEX REPLACE ".cpp" "" target_name ${target_name})
 
-    add_executable(${target_name} ${v})
+    add_executable(${target_name} ${v} ${SRC_LIST})
 endforeach()
 
 

@@ -12,11 +12,11 @@ namespace sockets {
 int createTcpSock(); // 默认创建非阻塞的tcp描述符
 int createUdpSock(); // 默认创建非阻塞的udp描述符
 
-bool bind(int sockfd, std::string& ip, uint16_t port);
+bool bind(int sockfd, const std::string& ip, uint16_t port);
 bool listen(int sockfd, int backlog);
 int accept(int sockfd);
 void close(int sockfd);
-bool connect(int sockfd, std::string& ip, uint16_t port, int timeout);
+bool connect(int sockfd, const std::string& ip, uint16_t port, int timeout);
 
 void ignoreSigPipeOnSocket(int socketfd);
 
